@@ -1,0 +1,952 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active,
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+aside,
+section,
+main,
+article {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.mb_purchase,
+.hamburger-menu,
+.first_child.mobile,
+.social_footer.mobile,
+.magazine .item p br,
+.scrol_img,
+.header_bottom .mb_imgblock img{
+    display: none;
+}
+ .header_img{
+    position: relative;
+} 
+
+/*Header Start*/
+
+header {
+    background-image: url('../images/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+}
+
+header .header_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.header_top .menu {
+    flex: 0 0 50%;
+}
+
+.header_top .menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-right: 22px;
+}
+
+.menu ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    transition: .3s all ease;
+}
+
+.menu ul li a:hover {
+    color: #FF5C01;
+}
+
+.header_top .social_links {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 17%;
+    padding-right: 40px;
+}
+
+.social_links .white img {
+    filter: invert(0) sepia(2703%) saturate(0%) hue-rotate(80deg) brightness(2750%) contrast(180%);
+}
+
+.social_links a img:hover {
+    filter: invert(52%) sepia(83%) saturate(839%) hue-rotate(346deg) brightness(111%) contrast(133%);
+}
+
+.header_top .shop_links {
+    display: flex;
+}
+
+.header_top .shop_links a {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    border: solid 5px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(0deg, #2400FF 3.87%, #001AFF 10.19%, #0066FF 58.61%, #00D1FF 93.36%, #00FFFF 109.15%), linear-gradient(180deg, #2400FF 3.87%, #001AFF 10.19%, #0066FF 58.61%, #00D1FF 93.36%, #00FFFF 109.15%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.header_top .shop_links a span {
+    padding: 18px;
+}
+
+.header_top .shop_links a:last-child {
+    background-image: linear-gradient(0deg, #FF1F00 3.87%, #FF2C00 10.19%, #FF9300 58.61%, #FFD500 93.36%, #FFEE00 109.15%), linear-gradient(180deg, #FF1F00 3.87%, #FF2C00 10.19%, #FF9300 58.61%, #FFD500 93.36%, #FFEE00 109.15%);
+    border: 5px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+    margin-right: 0;
+}
+
+.shop_links .fire img {
+    position: absolute;
+    left: 127px;
+}
+
+.header_bottom .img_block img {
+    position: absolute;
+    top: 246px;
+    right: 17px;
+    width: 50%;
+}
+
+.header_bottom {
+    width: 53%;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.header_bottom .title {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.header_bottom .name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.header_bottom .learn a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.header_bottom .learn img {
+    margin-left: 14px;
+}
+
+
+/*Header End*/
+
+
+/* Section Collection Start */
+
+.grey_block {
+    background-image: url('../images/fon3.jpg');
+    transform: translate(0px, -36px);
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    margin-bottom: -33px;
+    clip-path: polygon(0 6%, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.collection .info_item {
+    width: 75%;
+}
+
+.collection .info_item .title h1 {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 65px;
+    color: #111111;
+}
+
+.collection .info_item .info p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #111111;
+}
+
+.info_item .info span {
+    font-weight: 700;
+}
+
+.item_card:hover {
+    transform: rotateY(30deg);
+    transition: 1s all ease;
+}
+
+.collection .item_card {
+    margin-bottom: 17px;
+}
+
+
+/*Section Collection End*/
+
+
+/*Section Magazine Start*/
+
+.magazine_block {
+    background-image: url(../images/footer_bg.png);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    margin-top: -70px;
+}
+
+.magazine h2 {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.magazine p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.magazine a {
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    background-image: linear-gradient(0deg, #FF3700 -1.01%, #FF3D00 15.97%, #FF4C00 38.95%, #FF6700 62.92%, #FF8B00 89.89%, #FF9900 98.89%), linear-gradient(180deg, #FF1F00 3.87%, #FF2C00 10.19%, #FF9300 58.61%, #FFD500 93.36%, #FFEE00 109.15%);
+    border: 5px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.magazine a span {
+    padding-left: 30px;
+    padding-right: 14px;
+}
+
+.magazine img {
+    position: absolute;
+    right: 182px;
+    transform: rotateY(180deg);
+    top: -23px;
+}
+
+
+/*Section Magazine End*/
+
+
+/*Section Purchase Start*/
+
+.purchase_block {
+    background-image: url('../images/bgxol.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center -44px;
+}
+
+.purchase {
+    padding-top: 180px;
+    padding-bottom: 86px;
+}
+
+.purchase .title {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    background-image: url('../images/white_block.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    margin-bottom: 20px;
+    background-size: contain;
+}
+
+.purchase .title .gradients {
+    background: linear-gradient(180deg, #FF1F00 3.87%, #FF2C00 10.19%, #FF9300 58.61%, #FFD500 93.36%, #FFEE00 109.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 5px;
+}
+
+.purchase .name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.purchase .info {
+    margin-bottom: 20px;
+}
+
+.purchase .info p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.purchase form input {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 0 10px 22px;
+    width: 30%;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+ :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+ ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.purchase form {
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1000;
+}
+
+.purchase button {
+    background-image: linear-gradient(0deg, #FF3700 -1.01%, #FF3D00 15.97%, #FF4C00 38.95%, #FF6700 62.92%, #FF8B00 89.89%, #FF9900 98.89%), linear-gradient(180deg, #FF1F00 3.87%, #FF2C00 10.19%, #FF9300 58.61%, #FFD500 93.36%, #FFEE00 109.15%);
+    border: 5px solid transparent;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    height: 48px;
+    width: 140px;
+    margin-right: 60px;
+}
+
+.purchase button img {
+    position: absolute;
+    top: -12px;
+    left: 116px;
+    width: 38%;
+}
+.purchase .community{
+    position: relative;
+    z-index: 1000;
+}
+.purchase .community a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase .community a img {
+    padding-right: 15px;
+}
+
+
+/*Section Purchase End*/
+
+
+/*each End*/
+
+.each_line {
+    height: 64px;
+    background-image: url(../images/each_line_bg.png);
+}
+
+.each {
+    background-image: url(../images/each_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 108px 0;
+}
+
+.each .container {
+    width: 1393px;
+    background: #020202;
+    border-radius: 10px;
+    padding: 99px 280px 120px 280px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.each .container .card_title {
+    margin-bottom: 60px;
+}
+
+.each .container .card_title h1 {
+    font-family: 'Montserrat Alternates';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+.each .container .card_title p {
+    margin: 0 auto;
+    text-align: center;
+    width: 560px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.each .container .card_body .col-lg-4 img {
+    margin-bottom: 40px;
+}
+
+.each .container .card_body p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.each .container .card_body .pen {
+    width: 177px;
+}
+
+
+/*each End*/
+
+
+/*Roadmap start*/
+
+.roadmap {
+    background-image: url(../images/Roadmap_bg.png);
+    font-family: 'Montserrat';
+}
+
+.roadmap .snake {
+    background-image: url(../images/snake.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 69px 0 199px 0;
+    min-height: 1056px;
+}
+
+.roadmap .snake .container {
+    width: 1393px;
+}
+
+.roadmap .snake h1 {
+    margin-bottom: 125px;
+}
+
+.roadmap_items {
+    position: relative;
+}
+
+.roadmap_items .firs_item {
+    width: 177px;
+    margin-right: 84px;
+}
+
+.roadmap .snake p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #070711;
+}
+
+.roadmap .snake .march_2022 {
+    position: absolute;
+    top: 250px;
+    left: -146px;
+}
+
+.roadmap .snake .second_item p {
+    width: 168px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+
+.roadmap .snake .second_item img {
+    position: absolute;
+    top: 15px;
+    left: 139px;
+}
+
+.roadmap .snake .roadmap_items .third_item p {
+    width: 135px;
+    position: absolute;
+    top: -91px;
+    left: 633px;
+}
+
+.roadmap .snake .roadmap_items .third_item img {
+    position: absolute;
+    top: -240px;
+    left: 278px;
+}
+
+.roadmap .snake .roadmap_items .fourth_item p {
+    width: 154px;
+    position: absolute;
+    top: 67px;
+    right: 370px;
+}
+
+.roadmap .snake .roadmap_items .fourth_item img {
+    position: absolute;
+    bottom: -415px;
+    right: 428px;
+}
+
+.roadmap .snake .roadmap_items .fifth_item p {
+    width: 187px;
+    position: absolute;
+    top: -211px;
+    right: 135px;
+}
+
+.roadmap .snake .roadmap_items .fifth_item img {
+    position: absolute;
+    top: 15px;
+    right: 96px;
+}
+
+
+/*Roadmap End*/
+
+
+/* Footer start */
+
+footer {
+    background-image: url('../images/footer_bg.png');
+    padding-bottom: 40px;
+    font-family: 'Montserrat Alternates';
+    position: relative;
+}
+
+footer .faq {
+    background: #020202;
+    border-radius: 10px;
+    padding: 52px 128px 84px 118px;
+    transform: translateY(-110px);
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+footer .faq h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 60px;
+}
+
+footer .faq .accordion {
+    background: #020202;
+}
+
+.accordion-flush .accordion-item {
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+    background: #020202;
+    color: #FFFFFF;
+}
+
+.accordion-flush .accordion-item .accordion-body {
+    background: #020202;
+    color: #FFFFFF;
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.accordion-flush .accordion-item button {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    padding: 20px 0;
+}
+
+.accordion-flush .accordion-item .accordion-body {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    padding: 20px 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url(../images/down.png);
+    background-size: 20px 13px;
+    height: 12px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/down.png);
+    transform: rotate(180deg);
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+}
+
+.footer_nav {
+    font-family: 'Montserrat';
+    padding-left: 324px;
+}
+
+.footer_nav a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.footer_nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer_nav ul.first_child li {
+    margin-bottom: 10;
+}
+
+.first_child.mobile {
+    display: none;
+}
+
+.footer_nav .social_footer li {
+    margin-bottom: 15px;
+}
+
+.social_footer.mobile {
+    display: none;
+}
+
+.footer_nav .social_footer img {
+    margin-right: 20px;
+}
+
+.footer_nav .donat_footer {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.footer_nav .donat_footer a {
+    margin-bottom: 20px;
+    font-family: 'Proxima Nova Rg';
+    display: inline-block;
+    position: relative;
+}
+
+.footer_nav .donat_footer .buy_footer {
+    font-family: 'Proxima Nova Rg';
+    padding: 12px 65px;
+    background-image: url(../images/buy_token.png);
+    background-repeat: no-repeat;
+}
+
+.footer_nav .play_footer {
+    background-image: url(../images/buy_token.png);
+    background-repeat: no-repeat;
+    padding: 13px 44px;
+}
+
+.footer_nav .nft_footer {
+    background-image: url(../images/by_nft.png);
+    background-repeat: no-repeat;
+    padding: 10px 52px 13px 63px;
+    text-align: right;
+    margin-left: 39px;
+}
+
+.footer_nav .nft_footer img {
+    position: absolute;
+    bottom: -3px;
+    left: -40px;
+    /* transform: translate(-48px,-24px); */
+}
+
+.contact {
+    text-align: right;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+}
+
+.contact img {
+    position: absolute;
+    top: -114px;
+    right: 0;
+}
+
+.contact_us {
+    background-image: url(../images/contact_footer.png);
+    background-repeat: no-repeat;
+    padding: 15px 0 24px 6px;
+    display: inline;
+    margin-right: 31px;
+}
+
+.contact_us a {
+    padding: 5px 54px 19px 22px;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova Rg';
+    background: linear-gradient(0deg, #FF3700 -1.01%, #FF3D00 15.97%, #FF4C00 38.95%, #FF6700 62.92%, #FF8B00 89.89%, #FF9900 98.89%);
+    border-radius: 5px;
+}
+
+.mobile_br {
+    display: none;
+}
+
+.img_bulut {
+    position: relative;
+}
+
+.img_bulut img {
+    position: absolute;
+    top: -153px;
+    right: 0;
+    left: -349px;
+}
+
+.img_drak_left {
+    position: relative;
+}
+
+.img_drak_left IMG {
+    position: absolute;
+    top: -288px;
+    /* RIGHT: 0; */
+    LEFT: -53px;
+    width: 30%;
+}
+
+.img_dark_right {
+    position: relative;
+}
+
+.img_dark_right img {
+    position: absolute;
+    top: -309px;
+    right: -35px;
+    width: 30%;
+}
+.social_footer a img:hover {
+    filter: invert(31%) sepia(83%) saturate(839%) hue-rotate(346deg) brightness(111%) contrast(133%);
+}
+.social_footer a:hover {
+    filter: invert(67%) sepia(83%) saturate(839%) hue-rotate(346deg) brightness(111%) contrast(133%);
+}
+.first_child li a:hover{
+    filter: invert(67%) sepia(83%) saturate(839%) hue-rotate(346deg) brightness(111%) contrast(133%);
+}
+/* footer end */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container {
+        max-width: 1393px;
+    }
+}
